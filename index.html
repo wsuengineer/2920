@@ -5,50 +5,60 @@
 <style>
 body   {
   margin: auto;
-  padding: 15px;
+  padding: 12px;
   background-color: #ffffff;
   color: #000000;
   font-family: -apple-system, BlinkMacSystemFont, sans-serif;
   font-size: 15px;
   text-align: left;
   } 
-a      {
-  color: #000000;
-  text-decoration: none;
-  }
-h2, h3 {
+h1, h3, h4 {
   font-weight: normal
   }
-div.a  {
+td    {
+  border: 2px solid black;
+  }
+div.h {
+  text-align: center;
+  }
+div.a {
   text-indent: 45px;
   }
 div.b {
-  text-indent: 45px;
+  text-indent: none;
+  text-align: center;
   }
 div.c {
   text-indent: 45px;
   }
 div.d {
   text-indent: none;
+  text-align: center;
+  }
+div.e {
+  text-indent: none;
+  text-align: center;
   }
   </style>
   </head>
   <body>
-  <center><img src="assembly.png" alt="Assembly" width="375" height="321"></center>
-<h2><center>Bed Sore Reduction<br>Medical Alternating Air Mattress Prototype</center></h2>
-        <h3><center>Iris Man Do, Mohamad Hachicho, Tyler Naus, & Davide Seikaly</center></h3>
-        <hr>
-        <h3>Introduction</h3>
+  <div class = "h">
+    <img src="assembly.png" alt="Assembly" width="376" height="322">
+    <h1><b>Bed Sore Reduction</b>
+      <br>Medical Alternating Air Mattress Prototype</h1>
+    <h3>Iris Man Do, Mohamad Hachicho, Tyler Naus, & Davide Seikaly</h3>
+    <h4>April 2022</h4>
+  </div>
+    <hr>
+    <h3><b>Introduction</b></h3>
         <div class = "a">
-         Bed sores are often caused by pressure sustained on an area of the patient due to the patient’s inability to re-position on the mattress. Our goal is to reduce bed sores by designing a device capable of periodically re-positioning the patient to re-distribute pressure areas.  
+         Bed sores or pressure ulcers are caused by force sustained over an area of the patient due to the patient’s inability to re-position on the mattress. Our goal is to reduce bed sores by designing a device capable of periodically re-positioning the patient to re-distribute pressure areas.  
          <p>After initial research and user needs development, we began work on designing a medical alternating pressure mattress to reduce the incidence of bed sores.
         </div>
-        <hr>
-        <h3>User Needs</h3>
         <div class = "b">
              <center><table>
                <tr>
-               <th>User Need</th>
+                 <th>User Need</th>
                </tr>
                <tr>
                  <td>Alternate pressure areas</td>
@@ -63,29 +73,37 @@ div.d {
                  <td>Safe</td>
                </tr>
                <tr>
-                 <td>Sufficient pressure in static and alternating mode</td>
-               </tr>
-               <tr>
                  <td>Support user weight</td>
                </tr>
-               </table></center>
+              </table></center>
         </div>
         <hr>
-        <h3>Prototype</h3>
+    <h3><b>Prototype</b></h3>
         <div class = "c">
              The purpose of the prototype is to give a concept of the alternating air cell mechanism used to re-position the patient and re-distribute pressure areas. The prototype is a scaled down version of a real mattress, and includes an automatic pump, tubing, valves, air cells, and cover. The hydraulic circuit is functional to allow for inflation and deflation of cells. The cells are organized into two sets which can inflate or deflate independently.
           <p>We used NX to design individual components and construct an assembly. Using our 3D model as a guide, we wrote a list of parts and estimated cost (bill of materials). With Professor Mundo’s help in ordering and receiving the parts, the physical build was commenced. 
           <p>Iris sewed a cover in which the air cells would be seated. Each air cell was outfitted with an inlet and outlet tubing connection (i.e., adhesive patch with mating part). The hydraulic circuit was formed via cutting sections of tube to desired length and connecting via T- and elbow valves. Ball valves were used on the outlet side of the circuit to control deflation.
-          <p>The video displays the prototype’s function with a CPR dummy and ankle weights as resistance.
-          <br><center><iframe width="375" height="300" src="https://www.youtube.com/embed/XbhCuPTnrGg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-            <br><img src = "prototype_1.png" alt = "Prototype - deflated" width="375" height="174">
-            <br><img src = "prototype_2.png" alt = "Prototype - inflated" width="281" height="375"></center>
+        </div>
+        <div class = "d">
+            <figure>
+             <iframe width="376" height="282" src="https://www.youtube.com/embed/XbhCuPTnrGg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+             <figcaption>Video: Prototype demonstration</figcaption>
+            </figure>
+          <br>
+            <figure>
+             <img src = "prototype_1.png" alt = "Prototype - deflated" width="376" height="175">
+             <figcaption>Image 1: Prototype deflated</figcaption>
+            </figure>
+          <br>
+            <figure>
+             <img src = "prototype_2.png" alt = "Prototype - inflated" width="282" height="376">
+             <figcaption>Image 2: Prototype inflated</figcaption>
+            </figure>
         </div>
         <br>
         <hr>
-        <div class = "d">
-        <center>April 2022<br>
-          <img src = "wsu.png" alt = "Wayne State University - Biomedical Engineering" width="375" height="87"></center>
+        <div class = "e">
+          <img src = "wsu.png" alt = "Wayne State University - Biomedical Engineering" width="376" height="88">
         </div>     
     </body>
 </html>
