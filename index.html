@@ -10,15 +10,11 @@ body   {
   background-color: #ffffff;
   color: #000000;
   font-family: -apple-system, BlinkMacSystemFont, sans-serif;
-  font-size: 15px;
+  font-size: 2vw;
   text-align: left;
   } 
 h2, h3, h4 {
   font-weight: normal
-  }
-a          {
-  color: #000000;
-  text-decoration: none;
   }
 td         {
   border: 2px solid black;
@@ -49,9 +45,25 @@ div.e {
 div.f {
   text-indent: 45px;
   }
-div.g {
-  text-indent: none;
+ div.g {
+    text-indent: none;
   }
+ div.j {
+   text-indent: 45px;
+  }
+.video-container {
+    position: relative;
+    width: 100%;
+    height: 0;
+    padding-bottom: 56.27198%;
+    }
+.video-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    }
   </style>
   </head>
   <body>
@@ -90,17 +102,17 @@ div.g {
               </table></center>
         </div>
         <hr>
-    <h3><a href="treatment.pdf" target="_blank"><i class="fas fa-file fa-2x"></i>&nbsp<b><u>Current Treatment</u></b></a></h3>
+    <h3><i class="fa-regular fa-file fa-lg"></i><a href="treatment.pdf" target="_blank"><b>Current Treatment</b></a></h3>
     <hr>
     <h3><b>Prototype</b></h3>
         <div class = "c">
           <h4><b><i>Goals of prototype:</i></b></h4>
-          <p>Our design of alternating pressure mattress is to help many groups of users who are limited in mobility to prevent and reduce bedsores. In this prototype of alternating pressure air mattress, we have our focus on demonstrating the alternating mechanism of the top layer of the overall design and ensure the integrity of the air cell design as well as the air-flow circuit.
-          <h4><i>Prototype overview:</i></h4>
-          <p>This prototype resembles the scale-down version of the full mattress’ top layer. It includes:
-          <br><br>- 6 PVC-inflatable air cells<br>- PVC-Vinyl air cell envelope<br>- Tubing system for air flow (made up of Nylon tubes, connectors, and brass shut-off valves)<br>- Air-pump. 
-          <p>The cell layer assembly has a dimension of 41x36x6 inches (not including the tubing system). All parts of this prototype are detachable. Since it takes up lots of space, this will serve for the purpose of easy storage and portability. 
-          <p>There are a total of 4 switches (shut-off valves) in the circuit, two of them control inflow air, and the other two control outflow. Three people are needed to operate the valves to create the alternating effect.
+          <p>Our design of an alternating pressure mattress is to help many groups of users who are limited in mobility to prevent and reduce bedsores. In this prototype, our focus is on demonstrating the alternating mechanism of the top layer of the overall design and ensure the integrity of the air cell design as well as the air-flow circuit.
+          <h4><b><i>Prototype overview:</i></b></h4>
+          <p>This prototype resembles a scaled-down version of the full mattress’s top layer. It includes:
+          <br><br>- 6 PVC-inflatable air cells<br>- PVC-Vinyl air cell envelope<br>- Tubing system for air flow (consisting of Nylon tubes, connectors, and brass shut-off valves)<br>- Air-pump. 
+          <p>The cell layer assembly has a dimension of 41x36x6 in. (not including the tubing system). All parts of this prototype are detachable. Since it takes up lots of space, this will serve for the purpose of easy storage and portability. 
+          <p>There are a total of 4 switches (shut-off valves) in the circuit; two of them control inflow air, and the other two control outflow. Three people are needed to operate the valves to create the alternating effect.
         </div>
         <div class = "d">
           <figure>
@@ -121,12 +133,15 @@ div.g {
         <div class = "f">
           <h4><b><i>Distinction between NX model design and prototype:</i></b></h4>
           <p>In general, the prototype resulted mostly as we had planned previously. All the parts needed little modifications and fit together well. However, there are still a few differences between the prototype and actual design.
-          <p>The outflow portion of the air circuit does not need to attach to the pump to deflate the cells. This is due to the high pressure inside the cells. Before assembling the prototype, we designed a closed circuit (see figure 4), where the air pump would feed the inflow, and also create negative pressure to move air out of the circuit. In reality, this is only needed if we want total deflation of the cells.
-            <br>
+          <p>The outflow portion of the air circuit does not need to attach to the pump to deflate the cells. This is due to the high pressure inside the cells. Before assembling the prototype, we designed a closed circuit (see Image 4), where the air pump would feed the inflow, and also create negative pressure to move air out of the circuit. In reality, this is only needed if we want total deflation of the cells.
+        </div>
+    <div class = "g">
             <figure>
              <img src = "circuit.png" alt = "Air-flow circuit" width="316" height="299">
              <figcaption>Image 4. Air-flow circuit</figcaption>
             </figure>
+    </div>
+    <div class = "j">
            <p>Due to the mechanical properties of the tubing, the circuit lines are not as flexible as planned. Therefore, to adjust the line, we must either shorten the tube length, or replace it with a different segment. 
           <h4><b><i>Measureable Objectives:</i></b></h4>
           <p>Our objectives are qualitative and are based on our user needs: able to alternate pressure areas, durable, able to reposition the user, safe, and able to support user weight. Because our prototype was a scaled-down version of a real medical alternating pressure mattress, we tested these objectives on a CPR dummy with ankle weights for added load. 
@@ -137,11 +152,9 @@ div.g {
           <br><br>5. Able to support user weight: The mattress remained fully inflated even as the weight of the dummy and ankle weights acted against the cells.
         </div>
         <hr>
-    <div class = "g">
-      <figure>
+  <h3><b>Prototype Demonstration</b></h3>
+    <div class = "video-container">
              <iframe width="316" height="212" src="https://www.youtube.com/embed/4RQEL5OeKkU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-             <figcaption>Video - Prototype demonstration</figcaption>
-            </figure>
     </div>
     <hr>
         <div class = "e">
